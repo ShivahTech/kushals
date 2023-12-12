@@ -663,6 +663,7 @@ a.kushails-product-thumb-link img {
   line-height: 28px;
   white-space: nowrap;
   overflow: hidden;
+  font-size: 1rem;
   text-overflow: ellipsis;
 }
 .artical-details p {
@@ -671,11 +672,10 @@ a.kushails-product-thumb-link img {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 .artical-details h3 a {
   color: var(--dark-color);
-  font-size: 1.4rem;
 
   white-space: nowrap;
   overflow: hidden;
