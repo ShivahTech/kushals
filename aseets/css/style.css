@@ -669,9 +669,7 @@ a.kushails-product-thumb-link img {
 .artical-details p {
   font-size: 0.9rem;
   color: var(--text-color);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  padding-bottom: 20px;
   padding-top: 5px;
 }
 .artical-details h3 a {
