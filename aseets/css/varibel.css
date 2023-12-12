@@ -1,0 +1,17 @@
+:root {
+  --heading-font: "Playfair Display", serif;
+  --heading-color: #000;
+  --deafult-font: "Poppins", sans-serif;
+  --text-color: #313030;
+  --theme-color: #c71d22;
+  --deafult-color: #fff;
+  --dark-color: #000;
+  --goldsmith-gray: #b9b7b7;
+  --goldsmith-dark: #060606;
+  --goldsmith-border-radius: 4px;
+  --goldsmith-red: #f70000;
+  --pricing-color: #706e6e;
+  --goldsmith-red-bg: #ffbfc1b0;
+  --goldsmith-green: rgba(0, 128, 0, 0.966);
+  --goldsmith-green-bg: rgba(0, 128, 0, 0.322);
+}
