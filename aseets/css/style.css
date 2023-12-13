@@ -752,3 +752,12 @@ a.kushails-product-thumb-link img {
 .kushails-start-section:hover .kushails-star-detail {
   opacity: 1;
 }
+
+/* temple-necklace-section */
+.temple-necklace-section {
+  padding-top: 60px;
+}
+a.kushails-product-thumb-link img {
+  width: 100%;
+  height: 196px;
+}
