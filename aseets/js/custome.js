@@ -86,7 +86,7 @@ $(document).ready(function () {
     dots: false,
     speed: 300,
     infinite: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 3000,
     autoplay: true,
     responsive: [
       {
@@ -140,7 +140,7 @@ $(document).ready(function () {
     dots: false,
     speed: 300,
     infinite: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 2000,
     autoplay: true,
     responsive: [
       {
@@ -167,7 +167,7 @@ $(document).ready(function () {
     dots: false,
     speed: 300,
     infinite: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 2000,
     autoplay: true,
     responsive: [
       {
