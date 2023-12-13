@@ -36,9 +36,16 @@ $(document).ready(function () {
     autoplay: true,
     responsive: [
       {
-        breakpoint: 991,
+        breakpoint: 1200,
         settings: {
           slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2,
         },
       },
       {

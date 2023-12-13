@@ -1,9 +1,33 @@
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .nav-link {
+    font-weight: 400;
+    margin-right: 13px !important;
+    padding: 10px 0px !important;
+    font-size: 14px !important;
+  }
+  .antique-section {
+    padding-top: 27px;
+  }
+  .feature-deal-lg {
+    display: flex;
+  }
+  .feature-deal-lg .product-list-item {
+    margin-bottom: 5px;
+    margin-right: 10px;
+  }
 
-    
+  .feature-deal-lg .product-list-item .product-list-inner {
+    display: unset;
+  }
 
-
-
-
-
+  .feature-deal-lg .product-list-item .product-list-timer {
+    display: unset;
+  }
+  .feature-deal-lg .product-list-item .product-list-timer .expired {
+    margin-top: 13px;
+  }
+  .feature-deal-lg .product-list-item .timer-description {
+    padding-top: 10px;
+    padding-left: 0px;
+  }
 }
