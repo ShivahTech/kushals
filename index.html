@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kushails</title>
+  <title>Shivah jeweler</title>
+  <!-- fav-icon -->
+  <link rel="icon" type="image/x-icon" href="./aseets/image/favicon.png">
   <!-- font-awsome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
@@ -40,15 +42,15 @@
             <div class="social-tabs">
               <ul>
                 <li>
-                  <a href="#" class="social-link"><img src="./aseets/image/facebook-app-symbol.png" class="img-fluid" />
+                  <a href="#" class="social-link"><img src="./aseets/image/facebook-app-symbol.png" class="img-fluid" alt="facebook" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="social-link"><img src="./aseets/image/instagram.png" class="img-fluid" />
+                  <a href="#" class="social-link"><img src="./aseets/image/instagram.png" class="img-fluid"  alt="instagram" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="social-link"><img src="./aseets/image/pinterest.png" class="img-fluid" />
+                  <a href="#" class="social-link"><img src="./aseets/image/pinterest.png" class="img-fluid" alt="pinterest" />
                   </a>
                 </li>
               </ul>
@@ -72,15 +74,69 @@
     <section class="logo-header">
       <div class="container">
         <div class="row align-items-center justify-content-between">
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-6 col-md-6">
             <div class="nav-logo">
               <a href="#">
-                <img src="./aseets/image/logo.svg" class="img-fluid" />
+                <img src="./aseets/image/shivahlogo.png" class="img-fluid" alt="shivahlogo" />
               </a>
             </div>
           </div>
-          <div class="col-lg-8">
-            <div class="d-flex align-items-center justify-content-end">
+          <div class="col-6 col-md-6 col-lg-12 d-lock d-lg-none text-end">
+              <div class="custome-offcanve">
+                <button class="btn custome-offcanve-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-bars"></i></button>
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                  <div class="offcanvas-header">
+                
+
+                        <img src="./aseets/image/shivahlogo.png" class="img-fluid" width="200px" height="200px" alt="shiavhloogo" />
+                     
+             
+                  
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav mx-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">
+                          Necklaces</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"> Earrings</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"> Bangles</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"> Accessories</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"> 92.5 Silver</a>
+                      </li>
+      
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"> Wedding Store</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"> Occasions</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"> Collection</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"> Happy Customers</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link mx-0" href="#"> Celeb Corner</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              
+              
+              </div>
+          </div>
+          <div class="col-lg-8 col-12">
+            <div class="d-flex align-items-center justify-content-end pt-2 pt-lg-0">
               <div class="search-section w-75">
                 <div class="search-input">
                   <input class="form-control" list="datalistOptions" id="exampleDataList"
@@ -131,14 +187,15 @@
         </div>
       </div>
     </section>
-    <section class="main-top-header">
+    <!-- large screen header -->
+    <section class="main-top-header d-none d-lg-block">
       <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container">
-            <a class="navbar-brand d-block d-lg-none" href="#">    
-                           <img src="./aseets/image/logo.svg" class="img-fluid" />
-                          
-                          </a>
+            <a class="navbar-brand d-block d-lg-none" href="#">
+              <img src="./aseets/image/shivahlogo.png" class="img-fluid"   alt="shiavhlogo"/>
+
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
               aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -190,24 +247,24 @@
         <div class="row align-items-center justify-content-center">
           <div class="col-12">
             <div class="autoplay">
-              <div>
+              <!-- <div>
                 <img src="./aseets/image/banner-5.webp" class="img-fluid" />
+              </div> -->
+              <div>
+                <img src="./aseets/image/banner-1.webp" class="img-fluid" alt="banner-1" />
               </div>
               <div>
-                <img src="./aseets/image/banner-1.webp" class="img-fluid" />
+                <img src="./aseets/image/banner-2.webp" class="img-fluid" alt="banner-2"/>
               </div>
               <div>
-                <img src="./aseets/image/banner-2.webp" class="img-fluid" />
+                <img src="./aseets/image/banner-3.webp" class="img-fluid"  alt="banner-3"/>
               </div>
-              <div>
-                <img src="./aseets/image/banner-3.webp" class="img-fluid" />
-              </div>
-              <div>
+              <!-- <div>
                 <img src="./aseets/image/banner-4.webp" class="img-fluid" />
-              </div>
+              </div> -->
 
               <div>
-                <img src="./aseets/image/banner-7.webp" class="img-fluid" />
+                <img src="./aseets/image/banner-7.webp" class="img-fluid" alt="banner-4" />
               </div>
             </div>
           </div>
@@ -222,38 +279,38 @@
           <div class="col-lg-12 text-center">
             <div class="breand-heading">
               <h3>Gorgeous Collections</h3>
-              <img src="./aseets/image/download.svg" />
+              <img src="./aseets/image/download.svg" alt="Gorgeous Collections" />
             </div>
           </div>
           <div class="col-lg-12 pt-2 pt-md-4">
             <div class="antique-silder">
               <div>
-                <img src="./aseets//image/zircon_jewellery.webp" />
+                <img src="./aseets//image/zircon_jewellery.webp" alt="zircon_jewellery" />
               </div>
               <div>
-                <img src="./aseets//image/haldi.webp" />
+                <img src="./aseets//image/haldi.webp" alt="zircon_jewellery"/>
               </div>
               <div>
-                <img src="./aseets//image/92.5_silver_temple_jewellery.jpg" />
+                <img src="./aseets//image/92.5_silver_temple_jewellery.jpg" alt="zircon_jewellery" />
               </div>
               <div>
-                <img src="./aseets//image/shimm.webp" />
+                <img src="./aseets//image/shimm.webp" alt="zircon_jewellery"/>
               </div>
               <div>
-                <img src="./aseets//image/squad.webp" />
+                <img src="./aseets//image/squad.webp" alt="zircon_jewellery" />
               </div>
               <div>
-                <img src="./aseets//image/Kundan_Jewellery.jpg" />
+                <img src="./aseets//image/Kundan_Jewellery.jpg" alt="zircon_jewellery" />
               </div>
               <div>
-                <img src="./aseets//image/enc.jpg" />
+                <img src="./aseets//image/enc.jpg" alt="zircon_jewellery" />
               </div>
 
 
 
 
               <div>
-                <img src="./aseets//image/92.5_silver_temple_jewellery.jpg" />
+                <img src="./aseets//image/92.5_silver_temple_jewellery.jpg" alt="zircon_jewellery"/>
               </div>
             </div>
           </div>
@@ -264,188 +321,193 @@
     <section class="feature-section">
       <div class="container">
         <div class="row ">
-          <div class="col-lg-4">
-            <div class="d-flex  align-content-center justify-content-between mb-2 mb-3">
-              <h4 class="feature-heading">Featured Deals </h4>
-              <a href="" class="view-details">
-                View All
-              </a>
-            </div>
+          <div class="col-lg-12 col-xl-12 col-xxl-4">
 
-            <div class="woocommerce product-list-item parent-loading">
-              <div class="product-list-inner">
-                <div class="thumb-wrapper">
-                  <a class="product-thumb" href="" title="360deg Product">
-                    <img decoding="async" width="150" height="150" src="./aseets/image/zircon-finger.avif"
-                      class="attachment-thumbnail size-thumbnail wp-post-image entered lazyloaded" alt="">
-                  </a>
+            <div class="feature-lg-screen">
+              <div class="d-flex  align-content-center justify-content-between mb-2 mb-3">
+                <h4 class="feature-heading">Featured Deals </h4>
+                <a href="" class="view-details">
+                  View All
+                </a>
+              </div>
+              <div class="feature-deal-lg">
+                <div class="woocommerce product-list-item parent-loading">
+                  <div class="product-list-inner">
+                    <div class="thumb-wrapper">
+                      <a class="product-thumb" href="" title="360deg Product">
+                        <img decoding="async" width="150" height="150" src="./aseets/image/zircon-finger.avif"
+                          class="attachment-thumbnail size-thumbnail wp-post-image entered lazyloaded" alt="zircon_jewellery">
+                      </a>
+                    </div>
+                    <div class="product-list-details">
+                      <h6 class="title list-part">
+                        <a href="#" title="
+    
+            Zircon Finger Ring 163988">
+
+                          Zircon Finger Ring 163988
+
+                        </a>
+                      </h6>
+                      <p class="list-price ">
+
+                        <span class="woocommerce-Price-amount amount">
+
+                          <span class="woocommerce-Price-currencySymbol"> ₹</span>
+                          980
+                        </span>
+
+                      </p>
+                      <div class="list-buttons list-part">
+                        <a href="" class="product_type_simple">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-list-timer">
+                    <div class="goldsmith-coming-time coming-time-mini"
+                      data-countdown="{&quot;date&quot;:&quot;2023/03/31&quot;,&quot;expired&quot;:&quot;Expired&quot;}">
+                      <div class="expired">Expired</div>
+                    </div>
+                    <p class="timer-description">Remains until the end of the offer</p>
+                  </div>
                 </div>
-                <div class="product-list-details">
-                  <h6 class="title list-part">
-                    <a href="#" title="
-              
-                      Zircon Finger Ring 163988">
+                <div class="woocommerce product-list-item parent-loading">
+                  <div class="product-list-inner">
+                    <div class="thumb-wrapper">
+                      <a class="product-thumb" href="" title="360deg Product">
+                        <img decoding="async" width="150" height="150"
+                          src="./aseets/image/antique-belt-ruby-green-gold-antique-belt-163407-36648966815900.avif"
+                          class="attachment-thumbnail size-thumbnail wp-post-image entered lazyloaded" alt="zircon_jewellery">
+                      </a>
+                    </div>
+                    <div class="product-list-details">
+                      <h6 class="title list-part">
+                        <a href="#" title="
 
-                      Zircon Finger Ring 163988
+        Zircon Finger Ring 163988">
 
-                    </a>
-                  </h6>
-                  <p class="list-price ">
 
-                    <span class="woocommerce-Price-amount amount">
 
-                      <span class="woocommerce-Price-currencySymbol"> ₹</span>
-                      980
-                    </span>
+                          Antique Belt 163407
+                        </a>
+                      </h6>
+                      <p class="list-price ">
 
-                  </p>
-                  <div class="list-buttons list-part">
-                    <a href="" class="product_type_simple">Add to cart</a>
+                        <span class="woocommerce-Price-amount amount">
+
+                          <span class="woocommerce-Price-currencySymbol"> ₹</span>
+                          7940
+                        </span>
+
+                      </p>
+                      <div class="list-buttons list-part">
+                        <a href="" class="product_type_simple">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-list-timer">
+                    <div class="goldsmith-coming-time coming-time-mini"
+                      data-countdown="{&quot;date&quot;:&quot;2023/03/31&quot;,&quot;expired&quot;:&quot;Expired&quot;}">
+                      <div class="expired">Expired</div>
+                    </div>
+                    <p class="timer-description">Remains until the end of the offer</p>
+                  </div>
+                </div>
+                <div class="woocommerce product-list-item parent-loading">
+                  <div class="product-list-inner">
+                    <div class="thumb-wrapper">
+                      <a class="product-thumb" href="" title="360deg Product">
+                        <img decoding="async" width="150" height="150"
+                          src="./aseets/image/antique-matil-ruby-gold-antique-matil-165532-36631438426268.avif"
+                          class="attachment-thumbnail size-thumbnail wp-post-image entered lazyloaded"alt="zircon_jewellery">
+                      </a>
+                    </div>
+                    <div class="product-list-details">
+                      <h6 class="title list-part">
+                        <a href="#" title="
+
+   
+    
+    Antique Matil 165532">
+
+
+
+                          Antique Matil 165532
+
+                        </a>
+                      </h6>
+                      <p class="list-price ">
+
+                        <span class="woocommerce-Price-amount amount">
+
+                          <span class="woocommerce-Price-currencySymbol"> ₹</span>
+                          970-
+                        </span>
+
+                      </p>
+                      <div class="list-buttons list-part">
+                        <a href="" class="product_type_simple">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-list-timer">
+                    <div class="goldsmith-coming-time coming-time-mini"
+                      data-countdown="{&quot;date&quot;:&quot;2023/03/31&quot;,&quot;expired&quot;:&quot;Expired&quot;}">
+                      <div class="expired">Expired</div>
+                    </div>
+                    <p class="timer-description">Remains until the end of the offer</p>
+                  </div>
+                </div>
+                <div class="woocommerce product-list-item parent-loading">
+                  <div class="product-list-inner">
+                    <div class="thumb-wrapper">
+                      <a class="product-thumb" href="" title="360deg Product">
+                        <img decoding="async" width="150" height="150"
+                          src="./aseets/image/antique-toe-ring-ruby-gold-antique-toe-ring-165059-36631432855708.avif"
+                          class="attachment-thumbnail size-thumbnail wp-post-image entered lazyloaded" alt="zircon_jewellery">
+                      </a>
+                    </div>
+                    <div class="product-list-details">
+                      <h6 class="title list-part">
+                        <a href="#" title="
+
+
+    
+Antique Toe Ring 165059">
+
+
+
+                          Antique Toe Ring 165059
+
+                        </a>
+                      </h6>
+                      <p class="list-price ">
+
+                        <span class="woocommerce-Price-amount amount">
+
+                          <span class="woocommerce-Price-currencySymbol"> ₹</span>
+                          380
+                        </span>
+
+                      </p>
+                      <div class="list-buttons list-part">
+                        <a href="" class="product_type_simple">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-list-timer">
+                    <div class="goldsmith-coming-time coming-time-mini"
+                      data-countdown="{&quot;date&quot;:&quot;2023/03/31&quot;,&quot;expired&quot;:&quot;Expired&quot;}">
+                      <div class="expired">Expired</div>
+                    </div>
+                    <p class="timer-description">Remains until the end of the offer</p>
                   </div>
                 </div>
               </div>
-              <div class="product-list-timer">
-                <div class="goldsmith-coming-time coming-time-mini"
-                  data-countdown="{&quot;date&quot;:&quot;2023/03/31&quot;,&quot;expired&quot;:&quot;Expired&quot;}">
-                  <div class="expired">Expired</div>
-                </div>
-                <p class="timer-description">Remains until the end of the offer</p>
-              </div>
             </div>
-            <div class="woocommerce product-list-item parent-loading">
-              <div class="product-list-inner">
-                <div class="thumb-wrapper">
-                  <a class="product-thumb" href="" title="360deg Product">
-                    <img decoding="async" width="150" height="150"
-                      src="./aseets/image/antique-belt-ruby-green-gold-antique-belt-163407-36648966815900.avif"
-                      class="attachment-thumbnail size-thumbnail wp-post-image entered lazyloaded" alt="">
-                  </a>
-                </div>
-                <div class="product-list-details">
-                  <h6 class="title list-part">
-                    <a href="#" title="
-          
-                  Zircon Finger Ring 163988">
 
-
-
-                      Antique Belt 163407
-                    </a>
-                  </h6>
-                  <p class="list-price ">
-
-                    <span class="woocommerce-Price-amount amount">
-
-                      <span class="woocommerce-Price-currencySymbol"> ₹</span>
-                      7940
-                    </span>
-
-                  </p>
-                  <div class="list-buttons list-part">
-                    <a href="" class="product_type_simple">Add to cart</a>
-                  </div>
-                </div>
-              </div>
-              <div class="product-list-timer">
-                <div class="goldsmith-coming-time coming-time-mini"
-                  data-countdown="{&quot;date&quot;:&quot;2023/03/31&quot;,&quot;expired&quot;:&quot;Expired&quot;}">
-                  <div class="expired">Expired</div>
-                </div>
-                <p class="timer-description">Remains until the end of the offer</p>
-              </div>
-            </div>
-            <div class="woocommerce product-list-item parent-loading">
-              <div class="product-list-inner">
-                <div class="thumb-wrapper">
-                  <a class="product-thumb" href="" title="360deg Product">
-                    <img decoding="async" width="150" height="150"
-                      src="./aseets/image/antique-matil-ruby-gold-antique-matil-165532-36631438426268.avif"
-                      class="attachment-thumbnail size-thumbnail wp-post-image entered lazyloaded" alt="">
-                  </a>
-                </div>
-                <div class="product-list-details">
-                  <h6 class="title list-part">
-                    <a href="#" title="
-      
-             
-              
-              Antique Matil 165532">
-
-
-
-                      Antique Matil 165532
-
-                    </a>
-                  </h6>
-                  <p class="list-price ">
-
-                    <span class="woocommerce-Price-amount amount">
-
-                      <span class="woocommerce-Price-currencySymbol"> ₹</span>
-                      970-
-                    </span>
-
-                  </p>
-                  <div class="list-buttons list-part">
-                    <a href="" class="product_type_simple">Add to cart</a>
-                  </div>
-                </div>
-              </div>
-              <div class="product-list-timer">
-                <div class="goldsmith-coming-time coming-time-mini"
-                  data-countdown="{&quot;date&quot;:&quot;2023/03/31&quot;,&quot;expired&quot;:&quot;Expired&quot;}">
-                  <div class="expired">Expired</div>
-                </div>
-                <p class="timer-description">Remains until the end of the offer</p>
-              </div>
-            </div>
-            <div class="woocommerce product-list-item parent-loading">
-              <div class="product-list-inner">
-                <div class="thumb-wrapper">
-                  <a class="product-thumb" href="" title="360deg Product">
-                    <img decoding="async" width="150" height="150"
-                      src="./aseets/image/antique-toe-ring-ruby-gold-antique-toe-ring-165059-36631432855708.avif"
-                      class="attachment-thumbnail size-thumbnail wp-post-image entered lazyloaded" alt="">
-                  </a>
-                </div>
-                <div class="product-list-details">
-                  <h6 class="title list-part">
-                    <a href="#" title="
-  
-          
-              
-          Antique Toe Ring 165059">
-
-
-
-                      Antique Toe Ring 165059
-
-                    </a>
-                  </h6>
-                  <p class="list-price ">
-
-                    <span class="woocommerce-Price-amount amount">
-
-                      <span class="woocommerce-Price-currencySymbol"> ₹</span>
-                      380
-                    </span>
-
-                  </p>
-                  <div class="list-buttons list-part">
-                    <a href="" class="product_type_simple">Add to cart</a>
-                  </div>
-                </div>
-              </div>
-              <div class="product-list-timer">
-                <div class="goldsmith-coming-time coming-time-mini"
-                  data-countdown="{&quot;date&quot;:&quot;2023/03/31&quot;,&quot;expired&quot;:&quot;Expired&quot;}">
-                  <div class="expired">Expired</div>
-                </div>
-                <p class="timer-description">Remains until the end of the offer</p>
-              </div>
-            </div>
           </div>
-          <div class="col-lg-8 pt-2">
+          <div class="col-lg-12 col-xl-12 col-xxl-8 pt-2">
             <div class="kushails-woo-banner-wrapper">
               <div class="kushails-banner-link">
                 <a href="#" class="">
@@ -464,16 +526,16 @@
 
 
               <div class="row align-item-center woocommerce-product-section pt-3">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-6">
                   <div class="kushails-products">
                     <div class="kushails-product-inner">
                       <div class="kushails-product-thumb-wrapper">
                         <a class="kushails-product-thumb-link" href="#">
                           <img src="./aseets/image/silver-earring-92-5-silver-earring-160494-36934649905308.webp"
-                            class="attachment-woocommerce_thumbnail-one " aria-colcount="img-fluid">
+                            class="attachment-woocommerce_thumbnail-one " aria-colcount="img-fluid" alt="Silver Earring">
 
                           <img src="./aseets/image/silver-earring-92-5-silver-earring-160494-36934649446556.webp"
-                            class="attachment-woocommerce_thumbnail-animation" aria-colcount="img-fluid">
+                            class="attachment-woocommerce_thumbnail-animation" aria-colcount="img-fluid" alt="Silver Earring">
                         </a>
                         <a href="#" class="kushails-product-cart">
                           Read More
@@ -514,18 +576,18 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-6">
                   <div class="kushails-products">
                     <div class="kushails-product-inner">
                       <div class="kushails-product-thumb-wrapper">
                         <a class="kushails-product-thumb-link" href="#">
                           <img
                             src="./aseets/image/silver-earring-white-rodium-92-5-silver-earring-145005-36656530620572.webp"
-                            class="attachment-woocommerce_thumbnail-one " aria-colcount="img-fluid">
+                            class="attachment-woocommerce_thumbnail-one " aria-colcount="img-fluid" alt="Silver Earring">
 
                           <img
                             src="./aseets/image/silver-earring-white-rodium-92-5-silver-earring-145005-36656530620572.webp"
-                            class="attachment-woocommerce_thumbnail-animation" aria-colcount="img-fluid">
+                            class="attachment-woocommerce_thumbnail-animation" aria-colcount="img-fluid" alt="Silver Earring">
                         </a>
                         <a href="#" class="kushails-product-cart">
                           Read More
@@ -568,17 +630,17 @@
                   </div>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-6">
                   <div class="kushails-products">
                     <div class="kushails-product-inner">
                       <div class="kushails-product-thumb-wrapper">
                         <a class="kushails-product-thumb-link" href="#">
                           <img
                             src="./aseets/image/trendy-zircon-earring-white-rose-gold-trendy-earring-166271-36914415501468.webp"
-                            class="attachment-woocommerce_thumbnail-one " aria-colcount="img-fluid">
+                            class="attachment-woocommerce_thumbnail-one " aria-colcount="img-fluid" alt="Silver Earring">
 
                           <img src="./aseets/image/trendy-zircon-earring-trendy-earring-166271-36914416222364.webp"
-                            class="attachment-woocommerce_thumbnail-animation" aria-colcount="img-fluid">
+                            class="attachment-woocommerce_thumbnail-animation" aria-colcount="img-fluid" alt="Silver Earring">
                         </a>
                         <a href="#" class="kushails-product-cart">
                           Read More
@@ -621,18 +683,18 @@
                   </div>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-6">
                   <div class="kushails-products">
                     <div class="kushails-product-inner">
                       <div class="kushails-product-thumb-wrapper">
                         <a class="kushails-product-thumb-link" href="#">
                           <img
                             src="./aseets/image/trendy-zircon-earring-white-rodium-gold-trendy-earring-163505-36752627302556 .webp"
-                            class="attachment-woocommerce_thumbnail-one " aria-colcount="img-fluid">
+                            class="attachment-woocommerce_thumbnail-one " aria-colcount="img-fluid" alt="Silver Earring">
 
                           <img
                             src="./aseets/image/trendy-zircon-earring-white-rodium-gold-trendy-earring-163505-36752627826844.webp"
-                            class="attachment-woocommerce_thumbnail-animation" aria-colcount="img-fluid">
+                            class="attachment-woocommerce_thumbnail-animation" aria-colcount="img-fluid" alt="Silver Earring">
                         </a>
                         <a href="#" class="kushails-product-cart">
                           Read More
@@ -675,18 +737,18 @@
                   </div>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-6">
                   <div class="kushails-products">
                     <div class="kushails-product-inner">
                       <div class="kushails-product-thumb-wrapper">
                         <a class="kushails-product-thumb-link" href="#">
                           <img
                             src="./aseets/image/trendy-zircon-earring-white-gold-trendy-earring-145984-36530686918812.webp"
-                            class="attachment-woocommerce_thumbnail-one " aria-colcount="img-fluid">
+                            class="attachment-woocommerce_thumbnail-one " aria-colcount="img-fluid " alt="Silver Earring">
 
                           <img
                             src="./aseets/image/trendy-zircon-earring-white-gold-trendy-earring-145984-36530686918812.webp"
-                            class="attachment-woocommerce_thumbnail-animation" aria-colcount="img-fluid">
+                            class="attachment-woocommerce_thumbnail-animation" aria-colcount="img-fluid" alt="Silver Earring">
                         </a>
                         <a href="#" class="kushails-product-cart">
                           Read More
@@ -728,16 +790,16 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-6">
                   <div class="kushails-products">
                     <div class="kushails-product-inner">
                       <div class="kushails-product-thumb-wrapper">
                         <a class="kushails-product-thumb-link" href="#">
                           <img src="./aseets/image/silver-earring-92-5-silver-earring-156307-36534051242140.webp"
-                            class="attachment-woocommerce_thumbnail-one " aria-colcount="img-fluid">
+                            class="attachment-woocommerce_thumbnail-one " aria-colcount="img-fluid" alt="Silver Earring">
 
                           <img src="./aseets/image/silver-earring-92-5-silver-earring-156307-36534049210524.webp"
-                            class="attachment-woocommerce_thumbnail-animation" aria-colcount="img-fluid">
+                            class="attachment-woocommerce_thumbnail-animation" aria-colcount="img-fluid" alt="Silver Earring">
                         </a>
                         <a href="#" class="kushails-product-cart">
                           Read More
@@ -780,16 +842,16 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-6">
                   <div class="kushails-products">
                     <div class="kushails-product-inner">
                       <div class="kushails-product-thumb-wrapper">
                         <a class="kushails-product-thumb-link" href="#">
                           <img src="./aseets/image/xx.webp" class="attachment-woocommerce_thumbnail-one "
-                            aria-colcount="img-fluid">
+                            aria-colcount="img-fluid" alt="Silver Earring">
 
                           <img src="./aseets/image/sss.webp" class="attachment-woocommerce_thumbnail-animation"
-                            aria-colcount="img-fluid">
+                            aria-colcount="img-fluid" alt="Silver Earring">
                         </a>
                         <a href="#" class="kushails-product-cart">
                           Read More
@@ -832,16 +894,16 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-6">
                   <div class="kushails-products">
                     <div class="kushails-product-inner">
                       <div class="kushails-product-thumb-wrapper">
                         <a class="kushails-product-thumb-link" href="#">
                           <img src="./aseets/image/ccc.webp" class="attachment-woocommerce_thumbnail-one "
-                            aria-colcount="img-fluid">
+                            aria-colcount="img-fluid" alt="Silver Earring">
 
                           <img src="./aseets/image/chover.webp" class="attachment-woocommerce_thumbnail-animation"
-                            aria-colcount="img-fluid">
+                            aria-colcount="img-fluid" alt="Silver Earring">
                         </a>
                         <a href="#" class="kushails-product-cart">
                           Read More
@@ -899,7 +961,7 @@
           <div class="col-12 text-center">
             <div class="breand-heading">
               <h3>TRENDY DESIGN JEWELLERY</h3>
-              <img src="./aseets/image/download.svg" />
+              <img src="./aseets/image/download.svg" alt="TRENDY DESIGN JEWELLERY" />
             </div>
           </div>
 
@@ -934,8 +996,8 @@
                       <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center my-3">
                         <div class="product-item">
                           <div class="product">
-                            <img src="./aseets/image/silver-zircon.webp" alt="" class="one-img" />
-                            <img src="./aseets/image/hovbe.webp" alt="" class="two-img-animated" />
+                            <img src="./aseets/image/silver-zircon.webp" alt="silver-zircon" class="one-img" />
+                            <img src="./aseets/image/hovbe.webp" alt="silver-zircon"  class="two-img-animated" />
                             <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                               <li class="icon">
                                 <span class="fas fa-expand-arrows-alt"></span>
@@ -965,8 +1027,8 @@
                       <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center my-3">
                         <div class="product-item">
                           <div class="product">
-                            <img src="./aseets/image/a.webp" alt="" class="one-img" />
-                            <img src="./aseets/image/b.webp" alt="" class="two-img-animated" />
+                            <img src="./aseets/image/a.webp" alt="silver-zircon" class="one-img" />
+                            <img src="./aseets/image/b.webp" alt="silver-zircon" class="two-img-animated" />
                             <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                               <li class="icon">
                                 <span class="fas fa-expand-arrows-alt"></span>
@@ -997,8 +1059,8 @@
                       <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center my-3">
                         <div class="product-item">
                           <div class="product">
-                            <img src="./aseets/image/cs.webp" alt="" class="one-img" />
-                            <img src="./aseets/image/cc.webp" alt="" class="two-img-animated" />
+                            <img src="./aseets/image/cs.webp" alt="silver-zircon" class="one-img" />
+                            <img src="./aseets/image/cc.webp" alt="silver-zircon" class="two-img-animated" />
                             <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                               <li class="icon">
                                 <span class="fas fa-expand-arrows-alt"></span>
@@ -1029,8 +1091,8 @@
                       <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center my-3">
                         <div class="product-item">
                           <div class="product">
-                            <img src="./aseets/image/d.jpg" alt="" class="one-img" />
-                            <img src="./aseets/image/dd.jpg" alt="" class="two-img-animated" />
+                            <img src="./aseets/image/d.jpg" alt="silver-zircon" class="one-img" />
+                            <img src="./aseets/image/dd.jpg" alt="silver-zircon" class="two-img-animated" />
                             <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                               <li class="icon">
                                 <span class="fas fa-expand-arrows-alt"></span>
@@ -1071,8 +1133,8 @@
                       <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center my-3">
                         <div class="product-item">
                           <div class="product">
-                            <img src="./aseets/image/e.webp" alt="" class="one-img" />
-                            <img src="./aseets/image/ee.webp" alt="" class="two-img-animated" />
+                            <img src="./aseets/image/e.webp" alt="silver-zircon" class="one-img" />
+                            <img src="./aseets/image/ee.webp" alt="silver-zircon" class="two-img-animated" />
                             <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                               <li class="icon">
                                 <span class="fas fa-expand-arrows-alt"></span>
@@ -1104,8 +1166,8 @@
                       <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center my-3">
                         <div class="product-item">
                           <div class="product">
-                            <img src="./aseets/image/f.webp" alt="" class="one-img" />
-                            <img src="./aseets/image/ff.webp" alt="" class="two-img-animated" />
+                            <img src="./aseets/image/f.webp" alt="silver-zircon" class="one-img" />
+                            <img src="./aseets/image/ff.webp" alt="silver-zircon" class="two-img-animated" />
                             <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                               <li class="icon">
                                 <span class="fas fa-expand-arrows-alt"></span>
@@ -1136,8 +1198,8 @@
                       <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center my-3">
                         <div class="product-item">
                           <div class="product">
-                            <img src="./aseets/image/g.webp" alt="" class="one-img" />
-                            <img src="./aseets/image/gg.webp" alt="" class="two-img-animated" />
+                            <img src="./aseets/image/g.webp" alt="silver-zircon"class="one-img" />
+                            <img src="./aseets/image/gg.webp" alt="silver-zircon" class="two-img-animated" />
                             <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                               <li class="icon">
                                 <span class="fas fa-expand-arrows-alt"></span>
@@ -1168,8 +1230,8 @@
                       <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center my-3">
                         <div class="product-item">
                           <div class="product">
-                            <img src="./aseets/image/h.webp" alt="" class="one-img" />
-                            <img src="./aseets/image/hh.webp" alt="" class="two-img-animated" />
+                            <img src="./aseets/image/h.webp" alt="silver-zircon" class="one-img" />
+                            <img src="./aseets/image/hh.webp" alt="silver-zircon" class="two-img-animated" />
                             <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                               <li class="icon">
                                 <span class="fas fa-expand-arrows-alt"></span>
@@ -1197,7 +1259,7 @@
                         </div>
                       </div>
 
-                     
+
 
 
                     </div>
@@ -1209,8 +1271,8 @@
                       <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center my-3">
                         <div class="product-item">
                           <div class="product">
-                            <img src="./aseets/image/zz.webp" alt="" class="one-img" />
-                            <img src="./aseets/image/z.webp" alt="" class="two-img-animated" />
+                            <img src="./aseets/image/zz.webp" alt="silver-zircon" class="one-img" />
+                            <img src="./aseets/image/z.webp"alt="silver-zircon" class="two-img-animated" />
                             <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                               <li class="icon">
                                 <span class="fas fa-expand-arrows-alt"></span>
@@ -1240,8 +1302,8 @@
                       <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center my-3">
                         <div class="product-item">
                           <div class="product">
-                            <img src="./aseets/image/zq.webp" alt="" class="one-img" />
-                            <img src="./aseets/image/zqq.webp" alt="" class="two-img-animated" />
+                            <img src="./aseets/image/zq.webp" alt="silver-zircon" class="one-img" />
+                            <img src="./aseets/image/zqq.webp" alt="silver-zircon" class="two-img-animated" />
                             <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                               <li class="icon">
                                 <span class="fas fa-expand-arrows-alt"></span>
@@ -1272,8 +1334,8 @@
                       <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center my-3">
                         <div class="product-item">
                           <div class="product">
-                            <img src="./aseets/image/xa.webp" alt="" class="one-img" />
-                            <img src="./aseets/image/zaa.webp" alt="" class="two-img-animated" />
+                            <img src="./aseets/image/xa.webp" alt="silver-zircon" class="one-img" />
+                            <img src="./aseets/image/zaa.webp" alt="silver-zircon" class="two-img-animated" />
                             <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                               <li class="icon">
                                 <span class="fas fa-expand-arrows-alt"></span>
@@ -1303,8 +1365,8 @@
                       <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center my-3">
                         <div class="product-item">
                           <div class="product">
-                            <img src="./aseets/image/xr.webp" alt="" class="one-img" />
-                            <img src="./aseets/image/xrr.webp" alt="" class="two-img-animated" />
+                            <img src="./aseets/image/xr.webp" alt="silver-zircon" class="one-img" />
+                            <img src="./aseets/image/xrr.webp" alt="silver-zircon" class="two-img-animated" />
                             <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                               <li class="icon">
                                 <span class="fas fa-expand-arrows-alt"></span>
@@ -1352,7 +1414,7 @@
           <div class="col-12 text-center">
             <div class="breand-heading">
               <h3>Our Trending Categories</h3>
-              <img src="./aseets/image/download.svg" />
+              <img src="./aseets/image/download.svg" alt="Our Trending Categories" />
             </div>
           </div>
           <div class="row align-item-center pt-2 pt-md-4">
@@ -1462,7 +1524,7 @@
           <div class="col-lg-12 text-center">
             <div class="breand-heading">
               <h3> Temple Necklaces</h3>
-              <img src="./aseets/image/download.svg">
+              <img src="./aseets/image/download.svg" alt="Temple Necklaces">
             </div>
           </div>
 
@@ -1471,16 +1533,16 @@
           <div class="col-lg-2">
             <div class="temple-silder">
               <div>
-                <img src="./aseets/image/temep3.webp" class="img-fluid" />
+                <img src="./aseets/image/temep3.webp" class="img-fluid"  alt="Temple Necklaces"/>
               </div>
               <div>
-                <img src="./aseets/image/temep4.webp" class="img-fluid" />
+                <img src="./aseets/image/temep4.webp" class="img-fluid" alt="Temple Necklaces" />
               </div>
               <div>
-                <img src="./aseets/image/temple-2.webp" class="img-fluid" />
+                <img src="./aseets/image/temple-2.webp" class="img-fluid" alt="Temple Necklaces" />
               </div>
               <div>
-                <img src="./aseets/image/tempe1.webp" class="img-fluid" />
+                <img src="./aseets/image/tempe1.webp" class="img-fluid" alt="Temple Necklaces" />
               </div>
 
             </div>
@@ -1489,394 +1551,410 @@
 
           <div class="col-lg-10">
             <div class="nacklace-silder">
-             <div>
-              <div class="kushails-products">
-                <div class="kushails-product-inner">
-                  <div class="kushails-product-thumb-wrapper">
-                    <a class="kushails-product-thumb-link" href="#">
-                      <img src="./aseets/image/na.webp" class="attachment-woocommerce_thumbnail-one " aria-colcount="img-fluid">
+              <div>
+                <div class="kushails-products">
+                  <div class="kushails-product-inner">
+                    <div class="kushails-product-thumb-wrapper">
+                      <a class="kushails-product-thumb-link" href="#">
+                        <img src="./aseets/image/na.webp" class="attachment-woocommerce_thumbnail-one "
+                          aria-colcount="img-fluid" alt="Temple Necklaces">
 
-                      <img src="./aseets/image/naa.webp" class="attachment-woocommerce_thumbnail-animation" aria-colcount="img-fluid">
-                    </a>
-                    <a href="#" class="kushails-product-cart">
-                      Read More
-                    </a>
+                        <img src="./aseets/image/naa.webp" class="attachment-woocommerce_thumbnail-animation"
+                          aria-colcount="img-fluid" alt="Temple Necklaces">
+                      </a>
+                      <a href="#" class="kushails-product-cart">
+                        Read More
+                      </a>
 
-                    <div class="kushails-wishlist-btn">
-                      <button type="button" class="whishlist">
-                        <i class="fa-solid fa-heart"></i>
-                      </button>
-                      <div class="kushails-wishlist-button mt-3">
-                        <button type="button" class="kushails-wishlist-add whishlist ">
-                          <i class="fa-solid fa-bag-shopping"></i>
+                      <div class="kushails-wishlist-btn">
+                        <button type="button" class="whishlist">
+                          <i class="fa-solid fa-heart"></i>
                         </button>
+                        <div class="kushails-wishlist-button mt-3">
+                          <button type="button" class="kushails-wishlist-add whishlist ">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                          </button>
+                        </div>
                       </div>
                     </div>
-                  </div>
 
 
-                  <h6 class="kushails-product-name">
-                    <a href="#" title="
+                    <h6 class="kushails-product-name">
+                      <a href="#" title="
           
                     Silver Temple Necklace 143686">
 
                         Silver Temple Necklace 143686</a>
-                  </h6>
-                  <div class="goldsmith-inline-two-block">
+                    </h6>
+                    <div class="goldsmith-inline-two-block">
 
-                    <span class="woocommerce-Price-amount amount">
+                      <span class="woocommerce-Price-amount amount">
 
-                      <span class="woocommerce-Price-currencySymbol">
-                        ₹
+                        <span class="woocommerce-Price-currencySymbol">
+                          ₹
+                        </span>
+                        6,550
+
                       </span>
-                      6,550
 
-                    </span>
-
+                    </div>
                   </div>
                 </div>
               </div>
-             </div>
-  <div>
-    <div class="kushails-products">
-      <div class="kushails-product-inner">
-        <div class="kushails-product-thumb-wrapper">
-          <a class="kushails-product-thumb-link" href="#">
-            <img src="./aseets/image/ruby.webp" class="attachment-woocommerce_thumbnail-one " aria-colcount="img-fluid">
+              <div>
+                <div class="kushails-products">
+                  <div class="kushails-product-inner">
+                    <div class="kushails-product-thumb-wrapper">
+                      <a class="kushails-product-thumb-link" href="#">
+                        <img src="./aseets/image/ruby.webp" class="attachment-woocommerce_thumbnail-one "
+                          aria-colcount="img-fluid" alt="Temple Necklaces">
 
-            <img src="./aseets/image/rubyh.webp" class="attachment-woocommerce_thumbnail-animation" aria-colcount="img-fluid">
-          </a>
-          <a href="#" class="kushails-product-cart">
-            Read More
-          </a>
+                        <img src="./aseets/image/rubyh.webp" class="attachment-woocommerce_thumbnail-animation"
+                          aria-colcount="img-fluid" alt="Temple Necklaces">
+                      </a>
+                      <a href="#" class="kushails-product-cart">
+                        Read More
+                      </a>
 
-          <div class="kushails-wishlist-btn">
-            <button type="button" class="whishlist">
-              <i class="fa-solid fa-heart"></i>
-            </button>
-            <div class="kushails-wishlist-button mt-3">
-              <button type="button" class="kushails-wishlist-add whishlist ">
-                <i class="fa-solid fa-bag-shopping"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-
-
-        <h6 class="kushails-product-name">
-          <a href="#" title="
-
-          Silver Temple Necklace 143686">
-
-          Silver Temple Necklace 156807</a>
-        </h6>
-        <div class="goldsmith-inline-two-block">
-
-          <span class="woocommerce-Price-amount amount">
-
-            <span class="woocommerce-Price-currencySymbol">
-              ₹
-            </span>
-            63,990
-
-          </span>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div>
-    <div class="kushails-products">
-      <div class="kushails-product-inner">
-        <div class="kushails-product-thumb-wrapper">
-          <a class="kushails-product-thumb-link" href="#">
-            <img src="./aseets/image/corl.webp" class="attachment-woocommerce_thumbnail-one " aria-colcount="img-fluid">
-
-            <img src="./aseets/image/colrh.webp" class="attachment-woocommerce_thumbnail-animation" aria-colcount="img-fluid">
-          </a>
-          <a href="#" class="kushails-product-cart">
-            Read More
-          </a>
-
-          <div class="kushails-wishlist-btn">
-            <button type="button" class="whishlist">
-              <i class="fa-solid fa-heart"></i>
-            </button>
-            <div class="kushails-wishlist-button mt-3">
-              <button type="button" class="kushails-wishlist-add whishlist ">
-                <i class="fa-solid fa-bag-shopping"></i>
-              </button>
-            </div>
-          </div>
-        </div>
+                      <div class="kushails-wishlist-btn">
+                        <button type="button" class="whishlist">
+                          <i class="fa-solid fa-heart"></i>
+                        </button>
+                        <div class="kushails-wishlist-button mt-3">
+                          <button type="button" class="kushails-wishlist-add whishlist ">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
 
 
-        <h6 class="kushails-product-name">
-          <a href="#" title="
+                    <h6 class="kushails-product-name">
+                      <a href="#" title="
 
           Silver Temple Necklace 143686">
 
-          Silver Temple Necklace 162679</a>
-        </h6>
-        <div class="goldsmith-inline-two-block">
+                        Silver Temple Necklace 156807</a>
+                    </h6>
+                    <div class="goldsmith-inline-two-block">
 
-          <span class="woocommerce-Price-amount amount">
+                      <span class="woocommerce-Price-amount amount">
 
-            <span class="woocommerce-Price-currencySymbol">
-              ₹
-            </span>
-            19,950
+                        <span class="woocommerce-Price-currencySymbol">
+                          ₹
+                        </span>
+                        63,990
 
-          </span>
+                      </span>
 
-        </div>
-      </div>
-    </div>
-  </div>
-  <div>
-    <div class="kushails-products">
-      <div class="kushails-product-inner">
-        <div class="kushails-product-thumb-wrapper">
-          <a class="kushails-product-thumb-link" href="#">
-            <img src="./aseets/image/gren.webp" class="attachment-woocommerce_thumbnail-one " aria-colcount="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-            <img src="./aseets/image/grenh.webp" class="attachment-woocommerce_thumbnail-animation" aria-colcount="img-fluid">
-          </a>
-          <a href="#" class="kushails-product-cart">
-            Read More
-          </a>
+              <div>
+                <div class="kushails-products">
+                  <div class="kushails-product-inner">
+                    <div class="kushails-product-thumb-wrapper">
+                      <a class="kushails-product-thumb-link" href="#">
+                        <img src="./aseets/image/corl.webp" class="attachment-woocommerce_thumbnail-one "
+                          aria-colcount="img-fluid" alt="Temple Necklaces">
 
-          <div class="kushails-wishlist-btn">
-            <button type="button" class="whishlist">
-              <i class="fa-solid fa-heart"></i>
-            </button>
-            <div class="kushails-wishlist-button mt-3">
-              <button type="button" class="kushails-wishlist-add whishlist ">
-                <i class="fa-solid fa-bag-shopping"></i>
-              </button>
-            </div>
-          </div>
-        </div>
+                        <img src="./aseets/image/colrh.webp" class="attachment-woocommerce_thumbnail-animation"
+                          aria-colcount="img-fluid " alt="Temple Necklaces">
+                      </a>
+                      <a href="#" class="kushails-product-cart">
+                        Read More
+                      </a>
 
-
-        <h6 class="kushails-product-name">
-          <a href="#" title="
-
-          Silver Temple Necklace 143686">
-
-          Silver Temple Necklace 161709</a>
-        </h6>
-        <div class="goldsmith-inline-two-block">
-
-          <span class="woocommerce-Price-amount amount">
-
-            <span class="woocommerce-Price-currencySymbol">
-              ₹
-            </span>
-            14,950
-
-          </span>
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <div>
-    <div class="kushails-products">
-      <div class="kushails-product-inner">
-        <div class="kushails-product-thumb-wrapper">
-          <a class="kushails-product-thumb-link" href="#">
-            <img src="./aseets/image/rubyg.webp" class="attachment-woocommerce_thumbnail-one " aria-colcount="img-fluid">
-
-            <img src="./aseets/image/rubygh.webp" class="attachment-woocommerce_thumbnail-animation" aria-colcount="img-fluid">
-          </a>
-          <a href="#" class="kushails-product-cart">
-            Read More
-          </a>
-
-          <div class="kushails-wishlist-btn">
-            <button type="button" class="whishlist">
-              <i class="fa-solid fa-heart"></i>
-            </button>
-            <div class="kushails-wishlist-button mt-3">
-              <button type="button" class="kushails-wishlist-add whishlist ">
-                <i class="fa-solid fa-bag-shopping"></i>
-              </button>
-            </div>
-          </div>
-        </div>
+                      <div class="kushails-wishlist-btn">
+                        <button type="button" class="whishlist">
+                          <i class="fa-solid fa-heart"></i>
+                        </button>
+                        <div class="kushails-wishlist-button mt-3">
+                          <button type="button" class="kushails-wishlist-add whishlist ">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
 
 
-        <h6 class="kushails-product-name">
-          <a href="#" title="
+                    <h6 class="kushails-product-name">
+                      <a href="#" title="
 
           Silver Temple Necklace 143686">
 
-          Silver Temple Necklace 1583809</a>
-        </h6>
-        <div class="goldsmith-inline-two-block">
+                        Silver Temple Necklace 162679</a>
+                    </h6>
+                    <div class="goldsmith-inline-two-block">
 
-          <span class="woocommerce-Price-amount amount">
+                      <span class="woocommerce-Price-amount amount">
 
-            <span class="woocommerce-Price-currencySymbol">
-              ₹
-            </span>
-            24,490
+                        <span class="woocommerce-Price-currencySymbol">
+                          ₹
+                        </span>
+                        19,950
 
-          </span>
+                      </span>
 
-        </div>
-      </div>
-    </div>
-  </div>
-  <div>
-    <div class="kushails-products">
-      <div class="kushails-product-inner">
-        <div class="kushails-product-thumb-wrapper">
-          <a class="kushails-product-thumb-link" href="#">
-            <img src="./aseets/image/nacruby.webp" class="attachment-woocommerce_thumbnail-one " aria-colcount="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="kushails-products">
+                  <div class="kushails-product-inner">
+                    <div class="kushails-product-thumb-wrapper">
+                      <a class="kushails-product-thumb-link" href="#">
+                        <img src="./aseets/image/gren.webp" class="attachment-woocommerce_thumbnail-one "
+                          aria-colcount="img-fluid" alt="Temple Necklaces">
 
-            <img src="./aseets/image/nh.webp" class="attachment-woocommerce_thumbnail-animation" aria-colcount="img-fluid">
-          </a>
-          <a href="#" class="kushails-product-cart">
-            Read More
-          </a>
+                        <img src="./aseets/image/grenh.webp" class="attachment-woocommerce_thumbnail-animation"
+                          aria-colcount="img-fluid" alt="Temple Necklaces">
+                      </a>
+                      <a href="#" class="kushails-product-cart">
+                        Read More
+                      </a>
 
-          <div class="kushails-wishlist-btn">
-            <button type="button" class="whishlist">
-              <i class="fa-solid fa-heart"></i>
-            </button>
-            <div class="kushails-wishlist-button mt-3">
-              <button type="button" class="kushails-wishlist-add whishlist ">
-                <i class="fa-solid fa-bag-shopping"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-
-
-        <h6 class="kushails-product-name">
-          <a href="#" title="
-
-          Silver Temple Necklace 143686">
-
-     
-          Silver Temple Necklace 162802</a>
-        </h6>
-        <div class="goldsmith-inline-two-block">
-
-          <span class="woocommerce-Price-amount amount">
-
-            <span class="woocommerce-Price-currencySymbol">
-              ₹
-            </span>
-            14,490
-
-          </span>
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <div>
-    <div class="kushails-products">
-      <div class="kushails-product-inner">
-        <div class="kushails-product-thumb-wrapper">
-          <a class="kushails-product-thumb-link" href="#">
-            <img src="./aseets/image/nacruby.webp" class="attachment-woocommerce_thumbnail-one " aria-colcount="img-fluid">
-
-            <img src="./aseets/image/nh.webp" class="attachment-woocommerce_thumbnail-animation" aria-colcount="img-fluid">
-          </a>
-          <a href="#" class="kushails-product-cart">
-            Read More
-          </a>
-
-          <div class="kushails-wishlist-btn">
-            <button type="button" class="whishlist">
-              <i class="fa-solid fa-heart"></i>
-            </button>
-            <div class="kushails-wishlist-button mt-3">
-              <button type="button" class="kushails-wishlist-add whishlist ">
-                <i class="fa-solid fa-bag-shopping"></i>
-              </button>
-            </div>
-          </div>
-        </div>
+                      <div class="kushails-wishlist-btn">
+                        <button type="button" class="whishlist">
+                          <i class="fa-solid fa-heart"></i>
+                        </button>
+                        <div class="kushails-wishlist-button mt-3">
+                          <button type="button" class="kushails-wishlist-add whishlist ">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
 
 
-        <h6 class="kushails-product-name">
-          <a href="#" title="
+                    <h6 class="kushails-product-name">
+                      <a href="#" title="
 
           Silver Temple Necklace 143686">
 
-     
-          Silver Temple Necklace 162802</a>
-        </h6>
-        <div class="goldsmith-inline-two-block">
+                        Silver Temple Necklace 161709</a>
+                    </h6>
+                    <div class="goldsmith-inline-two-block">
 
-          <span class="woocommerce-Price-amount amount">
+                      <span class="woocommerce-Price-amount amount">
 
-            <span class="woocommerce-Price-currencySymbol">
-              ₹
-            </span>
-            14,490
+                        <span class="woocommerce-Price-currencySymbol">
+                          ₹
+                        </span>
+                        14,950
 
-          </span>
+                      </span>
 
-        </div>
-      </div>
-    </div>
-  </div>
-  <div>
-    <div class="kushails-products">
-      <div class="kushails-product-inner">
-        <div class="kushails-product-thumb-wrapper">
-          <a class="kushails-product-thumb-link" href="#">
-            <img src="./aseets/image/nr.webp" class="attachment-woocommerce_thumbnail-one " aria-colcount="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="kushails-products">
+                  <div class="kushails-product-inner">
+                    <div class="kushails-product-thumb-wrapper">
+                      <a class="kushails-product-thumb-link" href="#">
+                        <img src="./aseets/image/rubyg.webp" class="attachment-woocommerce_thumbnail-one "
+                          aria-colcount="img-fluid" alt="Temple Necklaces">
 
-            <img src="./aseets/image/nrh.webp" class="attachment-woocommerce_thumbnail-animation" aria-colcount="img-fluid">
-          </a>
-          <a href="#" class="kushails-product-cart">
-            Read More
-          </a>
+                        <img src="./aseets/image/rubygh.webp" class="attachment-woocommerce_thumbnail-animation"
+                          aria-colcount="img-fluid" alt="Temple Necklaces">
+                      </a>
+                      <a href="#" class="kushails-product-cart">
+                        Read More
+                      </a>
 
-          <div class="kushails-wishlist-btn">
-            <button type="button" class="whishlist">
-              <i class="fa-solid fa-heart"></i>
-            </button>
-            <div class="kushails-wishlist-button mt-3">
-              <button type="button" class="kushails-wishlist-add whishlist ">
-                <i class="fa-solid fa-bag-shopping"></i>
-              </button>
-            </div>
-          </div>
-        </div>
+                      <div class="kushails-wishlist-btn">
+                        <button type="button" class="whishlist">
+                          <i class="fa-solid fa-heart"></i>
+                        </button>
+                        <div class="kushails-wishlist-button mt-3">
+                          <button type="button" class="kushails-wishlist-add whishlist ">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
 
 
-        <h6 class="kushails-product-name">
-          <a href="#" title="
+                    <h6 class="kushails-product-name">
+                      <a href="#" title="
 
           Silver Temple Necklace 143686">
 
-     
-          Silver Temple Necklace 158197</a>
-        </h6>
-        <div class="goldsmith-inline-two-block">
+                        Silver Temple Necklace 1583809</a>
+                    </h6>
+                    <div class="goldsmith-inline-two-block">
 
-          <span class="woocommerce-Price-amount amount">
+                      <span class="woocommerce-Price-amount amount">
 
-            <span class="woocommerce-Price-currencySymbol">
-              ₹
-            </span>
-            15,490
+                        <span class="woocommerce-Price-currencySymbol">
+                          ₹
+                        </span>
+                        24,490
 
-          </span>
+                      </span>
 
-        </div>
-      </div>
-    </div>
-  </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="kushails-products">
+                  <div class="kushails-product-inner">
+                    <div class="kushails-product-thumb-wrapper">
+                      <a class="kushails-product-thumb-link" href="#">
+                        <img src="./aseets/image/nacruby.webp" class="attachment-woocommerce_thumbnail-one "
+                          aria-colcount="img-fluid" alt="Temple Necklaces">
+
+                        <img src="./aseets/image/nh.webp" class="attachment-woocommerce_thumbnail-animation"
+                          aria-colcount="img-fluid" alt="Temple Necklaces">
+                      </a>
+                      <a href="#" class="kushails-product-cart">
+                        Read More
+                      </a>
+
+                      <div class="kushails-wishlist-btn">
+                        <button type="button" class="whishlist">
+                          <i class="fa-solid fa-heart"></i>
+                        </button>
+                        <div class="kushails-wishlist-button mt-3">
+                          <button type="button" class="kushails-wishlist-add whishlist ">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <h6 class="kushails-product-name">
+                      <a href="#" title="
+
+          Silver Temple Necklace 143686">
+
+
+                        Silver Temple Necklace 162802</a>
+                    </h6>
+                    <div class="goldsmith-inline-two-block">
+
+                      <span class="woocommerce-Price-amount amount">
+
+                        <span class="woocommerce-Price-currencySymbol">
+                          ₹
+                        </span>
+                        14,490
+
+                      </span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="kushails-products">
+                  <div class="kushails-product-inner">
+                    <div class="kushails-product-thumb-wrapper">
+                      <a class="kushails-product-thumb-link" href="#">
+                        <img src="./aseets/image/nacruby.webp" class="attachment-woocommerce_thumbnail-one "
+                          aria-colcount="img-fluid" alt="Temple Necklaces">
+
+                        <img src="./aseets/image/nh.webp" class="attachment-woocommerce_thumbnail-animation"
+                          aria-colcount="img-fluid" alt="Temple Necklaces">
+                      </a>
+                      <a href="#" class="kushails-product-cart">
+                        Read More
+                      </a>
+
+                      <div class="kushails-wishlist-btn">
+                        <button type="button" class="whishlist">
+                          <i class="fa-solid fa-heart"></i>
+                        </button>
+                        <div class="kushails-wishlist-button mt-3">
+                          <button type="button" class="kushails-wishlist-add whishlist ">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <h6 class="kushails-product-name">
+                      <a href="#" title="
+
+          Silver Temple Necklace 143686">
+
+
+                        Silver Temple Necklace 162802</a>
+                    </h6>
+                    <div class="goldsmith-inline-two-block">
+
+                      <span class="woocommerce-Price-amount amount">
+
+                        <span class="woocommerce-Price-currencySymbol">
+                          ₹
+                        </span>
+                        14,490
+
+                      </span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="kushails-products">
+                  <div class="kushails-product-inner">
+                    <div class="kushails-product-thumb-wrapper">
+                      <a class="kushails-product-thumb-link" href="#">
+                        <img src="./aseets/image/nr.webp" class="attachment-woocommerce_thumbnail-one "
+                          aria-colcount="img-fluid" alt="Temple Necklaces">
+
+                        <img src="./aseets/image/nrh.webp" class="attachment-woocommerce_thumbnail-animation"
+                          aria-colcount="img-fluid" alt="Temple Necklaces">
+                      </a>
+                      <a href="#" class="kushails-product-cart">
+                        Read More
+                      </a>
+
+                      <div class="kushails-wishlist-btn">
+                        <button type="button" class="whishlist">
+                          <i class="fa-solid fa-heart"></i>
+                        </button>
+                        <div class="kushails-wishlist-button mt-3">
+                          <button type="button" class="kushails-wishlist-add whishlist ">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <h6 class="kushails-product-name">
+                      <a href="#" title="
+
+          Silver Temple Necklace 143686">
+
+
+                        Silver Temple Necklace 158197</a>
+                    </h6>
+                    <div class="goldsmith-inline-two-block">
+
+                      <span class="woocommerce-Price-amount amount">
+
+                        <span class="woocommerce-Price-currencySymbol">
+                          ₹
+                        </span>
+                        15,490
+
+                      </span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -1894,14 +1972,14 @@
 
             <div class="breand-heading">
               <h3>Jewelry Articles</h3>
-              <img src="./aseets/image/download.svg">
+              <img src="./aseets/image/download.svg" alt="Jewelry Articles">
             </div>
           </div>
           <div class="col-12 pt-2">
             <div class="arical-slider">
               <div class="aritcial-card">
                 <a href="">
-                  <img class="img-fluid" src="./aseets/image/The_Modish_Flair_of_Statement_Earrings.webp">
+                  <img class="img-fluid" src="./aseets/image/The_Modish_Flair_of_Statement_Earrings.webp" alt="Jewelry Articles">
 
                 </a>
                 <div class="artical-details">
@@ -1923,7 +2001,7 @@
               </div>
               <div class="aritcial-card">
                 <a href="">
-                  <img class="img-fluid" src="./aseets/image/banner_6a63748f-fc15-4daf-a93f-c944b926ba32.webp">
+                  <img class="img-fluid" src="./aseets/image/banner_6a63748f-fc15-4daf-a93f-c944b926ba32.webp" alt="Jewelry Articles">
 
                 </a>
                 <div class="artical-details">
@@ -1945,7 +2023,7 @@
               </div>
               <div class="aritcial-card">
                 <a href="">
-                  <img class="img-fluid" src="./aseets/image/Artboard_1_copy_1.webp">
+                  <img class="img-fluid" src="./aseets/image/Artboard_1_copy_1.webp" alt="Jewelry Articles">
 
                 </a>
                 <div class="artical-details">
@@ -1966,19 +2044,19 @@
               </div>
               <div class="aritcial-card">
                 <a href="">
-                  <img class="img-fluid" src="./aseets/image/The_Modish_Flair_of_Statement_Earrings.webp">
+                  <img class="img-fluid" src="./aseets/image/banner_6a63748f-fc15-4daf-a93f-c944b926ba32.webp" alt="Jewelry Articles">
 
                 </a>
                 <div class="artical-details">
                   <h3>
                     <a href="">
-                      Be in Trend With Kushal's Statement Earrings!
+                      5 Iconic Large Wedding Earrings for the Modish Ethnic Charm
                     </a>
                   </h3>
                   <p>
 
-                    Looking for the perfect statement piece to match all your styles? Then we are here to help you find
-                    just that.
+                    The timeless allure of silver and ivory in bridal fashion is undeniable. These classic hues exude
+                    elegance and grace.
 
                   </p>
                   <a class="readmore" href="#">
@@ -2005,7 +2083,7 @@
 
             <div class="breand-heading">
               <h3>Catch The Light Like A Stars</h3>
-              <img src="./aseets/image/download.svg">
+              <img src="./aseets/image/download.svg" alt="Catch The Light Like A Stars">
             </div>
           </div>
           <div class="row align-content-center justify-content-center pt-2 pt-md-2">
@@ -2014,7 +2092,7 @@
                 <div>
                   <div class="kushails-start-section">
                     <div class="kushails-start-img">
-                      <img src="./aseets/image/mrunal_thakur.webp" class="img-fluid">
+                      <img src="./aseets/image/mrunal_thakur.webp" class="img-fluid" alt=" Mrunal Thakur">
                     </div>
                     <div class="kushails-star-detail">
                       <div class="kushails-inner-section">
@@ -2036,7 +2114,7 @@
                 <div>
                   <div class="kushails-start-section">
                     <div class="kushails-start-img">
-                      <img src="./aseets/image/sunny1.webp" class="img-fluid">
+                      <img src="./aseets/image/sunny1.webp" class="img-fluid"  alt="Sunny Leone">
                     </div>
                     <div class="kushails-star-detail">
                       <div class="kushails-inner-section">
@@ -2058,7 +2136,7 @@
                 <div>
                   <div class="kushails-start-section">
                     <div class="kushails-start-img">
-                      <img src="./aseets/image/06__1.webp" class="img-fluid">
+                      <img src="./aseets/image/06__1.webp" class="img-fluid"  alt="Jacqueline Fernandez">
                     </div>
                     <div class="kushails-star-detail">
                       <div class="kushails-inner-section">
@@ -2080,7 +2158,7 @@
                 <div>
                   <div class="kushails-start-section">
                     <div class="kushails-start-img">
-                      <img src="./aseets/image/08__1.webp" class="img-fluid">
+                      <img src="./aseets/image/08__1.webp" class="img-fluid" alt="Sreejita De">
                     </div>
                     <div class="kushails-star-detail">
                       <div class="kushails-inner-section">
@@ -2102,7 +2180,7 @@
                 <div>
                   <div class="kushails-start-section">
                     <div class="kushails-start-img">
-                      <img src="./aseets/image/03__1.webp" class="img-fluid">
+                      <img src="./aseets/image/03__1.webp" class="img-fluid"  alt="Avika Gor">
                     </div>
                     <div class="kushails-star-detail">
                       <div class="kushails-inner-section">
@@ -2124,7 +2202,7 @@
                 <div>
                   <div class="kushails-start-section">
                     <div class="kushails-start-img">
-                      <img src="./aseets/image/02__1.webp" class="img-fluid">
+                      <img src="./aseets/image/02__1.webp" class="img-fluid"  alt="Barkha Singh">
                     </div>
                     <div class="kushails-star-detail">
                       <div class="kushails-inner-section">
@@ -2146,7 +2224,7 @@
                 <div>
                   <div class="kushails-start-section">
                     <div class="kushails-start-img">
-                      <img src="./aseets/image/05__1.webp" class="img-fluid">
+                      <img src="./aseets/image/05__1.webp" class="img-fluid" alt="Aahana Kumra">
                     </div>
                     <div class="kushails-star-detail">
                       <div class="kushails-inner-section">
@@ -2168,7 +2246,7 @@
                 <div>
                   <div class="kushails-start-section">
                     <div class="kushails-start-img">
-                      <img src="./aseets/image/01__1.webp" class="img-fluid">
+                      <img src="./aseets/image/01__1.webp" class="img-fluid"  alt="Deepika Singh">
                     </div>
                     <div class="kushails-star-detail">
                       <div class="kushails-inner-section">
@@ -2190,7 +2268,7 @@
                 <div>
                   <div class="kushails-start-section">
                     <div class="kushails-start-img">
-                      <img src="./aseets/image/04__1.webp" class="img-fluid">
+                      <img src="./aseets/image/04__1.webp" class="img-fluid" alt=" Divya Agarwal">
                     </div>
                     <div class="kushails-star-detail">
                       <div class="kushails-inner-section">
@@ -2212,7 +2290,7 @@
                 <div>
                   <div class="kushails-start-section">
                     <div class="kushails-start-img">
-                      <img src="./aseets/image/shreya.jpg" class="img-fluid">
+                      <img src="./aseets/image/shreya.jpg" class="img-fluid" alt="      Shreya Ghoshal">
                     </div>
                     <div class="kushails-star-detail">
                       <div class="kushails-inner-section">
@@ -2234,7 +2312,7 @@
                 <div>
                   <div class="kushails-start-section">
                     <div class="kushails-start-img">
-                      <img src="./aseets/image/sunny1.webp" class="img-fluid">
+                      <img src="./aseets/image/sunny1.webp" class="img-fluid" alt=" Sunny Leone">
                     </div>
                     <div class="kushails-star-detail">
                       <div class="kushails-inner-section">
@@ -2381,7 +2459,7 @@
     <!-- footer-section-design -->
 
     <footer>
-      <section class="main-newsletter-section">
+      <section class="main-newsletter-section py-2 py-md-3 py-lg-4">
         <div class="container">
           <div class="row align-items-center justify-content-between">
             <div class="col-lg-6">
@@ -2427,7 +2505,7 @@
             <div class="row align-content-center justify-content-between">
               <div class="col-lg-3">
                 <div class="footer-logo">
-                  <img src="./aseets/image/logo.svg" class="img-fluid" />
+                  <img src="./aseets/image/shivahfooterlogo.png" class="img-fluid"  alt="shivah logo"/>
                   <p>
                     Be the first to know about sales, new product launches and
                     exclusive offers!
@@ -2560,21 +2638,21 @@
             </div>
 
           </div>
-          <div class="row align-content-center justify-content-between border-top">
+          <div class="row align-content-center justify-content-between border-top py-4">
             <div class="col-lg-4">
               <div class="social-tabs">
                 <ul>
                   <li>
                     <a href="#" class="social-link"><img src="./aseets/image/facebook-app-symbol.png"
-                        class="img-fluid" />
+                        class="img-fluid" alt="facebook" />
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social-link"><img src="./aseets/image/instagram.png" class="img-fluid" />
+                    <a href="#" class="social-link"><img src="./aseets/image/instagram.png" class="img-fluid" alt="instagram" />
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social-link"><img src="./aseets/image/pinterest.png" class="img-fluid" />
+                    <a href="#" class="social-link"><img src="./aseets/image/pinterest.png" class="img-fluid"  alt="pinterest"/>
                     </a>
                   </li>
                 </ul>

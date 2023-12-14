@@ -1,9 +1,91 @@
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .nav-link {
+    font-weight: 400;
+    margin-right: 13px !important;
+    padding: 10px 0px !important;
+    font-size: 14px !important;
+  }
+  .antique-section {
+    padding-top: 27px;
+  }
 
-    
+  .feature-section {
+    padding-top: 31px !important;
+  }
+  .feature-deal-lg {
+    display: flex;
+  }
+  .feature-deal-lg .product-list-item {
+    margin-bottom: 5px;
+    margin-right: 10px;
+  }
 
+  .feature-deal-lg .product-list-item .product-list-inner {
+    display: unset;
+  }
 
-
-
-
+  .feature-deal-lg .product-list-item .product-list-timer {
+    display: unset;
+  }
+  .feature-deal-lg .product-list-item .product-list-timer .expired {
+    margin-top: 13px;
+  }
+  .feature-deal-lg .product-list-item .timer-description {
+    padding-top: 10px;
+    padding-left: 0px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+}
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .free-details {
+    display: block !important;
+    text-align: center !important;
+  }
+  .free-shipping-detail {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  .main-newsletter-section {
+    margin-top: 17px;
+    border-bottom: 1px solid #d1cbcb2e;
+  }
+  .trendin-section {
+    padding-top: 13px;
+  }
+  .custome-nav-link .nav {
+    display: contents !important;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  .main-newsletter-section {
+    margin-top: 17px;
+    border-bottom: 1px solid #d1cbcb2e;
+  }
+  .nav-logo img {
+    max-width: 100% !important;
+  }
+  .social-tabs {
+    display: none;
+  }
+  .location {
+    display: none;
+  }
+  .free-shpiing-section {
+    padding-top: 0px !important;
+  }
+  .free-details {
+    display: block !important;
+    text-align: center !important;
+  }
+  .free-shipping-detail {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  .trendin-section {
+    padding-top: 13px;
+  }
+  .custome-nav-link .nav {
+    display: inline-flex !important;
+  }
 }
