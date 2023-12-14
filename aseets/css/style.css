@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
 }
+html,
 body {
   font-family: var(--deafult-font);
   overflow-x: hidden;
@@ -123,10 +124,22 @@ ul {
 .autoplay.slick-initialized.slick-slider.slick-dotted {
   overflow-y: hidden;
 }
-
+.custome-offcanve-btn {
+  font-size: 25px;
+  background: #575757;
+  color: #fff;
+  width: 62px;
+  height: 48px;
+}
+.offcanvas-body .navbar-nav {
+  text-align: start;
+}
+.offcanvas-body .navbar-nav .nav-item .nav-link {
+  font-size: 17px;
+  font-weight: 600;
+}
 .antique-section {
   padding-top: 60px;
-  padding-bottom: 40px;
 }
 
 .breand-heading h3 {
@@ -283,7 +296,6 @@ img.two-img-animated {
 .main-newsletter-section {
   margin-top: 50px;
   border-bottom: 1px solid #d1cbcb2e;
-  padding: 20px 0px;
 }
 .customerservices-detail h4 {
   color: #eeeeee;
@@ -340,7 +352,7 @@ footer .footer-logo img {
   margin-bottom: 10px;
 }
 .footer-link ul li a {
-  color: #727070;
+  color: #a5a0a0;
 }
 
 .border-top {
